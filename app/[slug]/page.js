@@ -1,5 +1,7 @@
 import CocoApp from "../../components/CocoApp";
 
-export default function Page({ params }) {
-  return <CocoApp slug={params.slug} />;
+export default async function Page({ params }) {
+  const { slug } = await params;
+
+  return <CocoApp slug={slug} />;
 }
