@@ -13,7 +13,7 @@ export const CATEGORIES = [
     desc: {
       en: "Authentic Italian flavors",
       ru: "Аутентичные итальянские вкусы",
-      hy: "Իտալական բնօրինակ համեր",
+      hy: "Իսկական իտալական համեր",
     },
   },
   {
@@ -25,12 +25,12 @@ export const CATEGORIES = [
     name: {
       en: "Sushi & Rolls",
       ru: "Суши и роллы",
-      hy: "Սուշի և Ռոլեր",
+      hy: "Սուշի և ռոլեր",
     },
     desc: {
       en: "Fresh Japanese delights",
       ru: "Свежие японские деликатесы",
-      hy: "Թարմ ճապոնական ուտեստներ",
+      hy: "Թարմ ճապոնական համեղություններ",
     },
   },
   {
@@ -42,12 +42,12 @@ export const CATEGORIES = [
     name: {
       en: "Grill & Steaks",
       ru: "Гриль и стейки",
-      hy: "Գրիլ և Ստեյք",
+      hy: "Գրիլ և ստեյքեր",
     },
     desc: {
       en: "Prime cuts, open flame",
       ru: "Отборное мясо на огне",
-      hy: "Կատարյալ կտրվածքներ",
+      hy: "Ընտիր կտրվածքներ, բաց կրակ",
     },
   },
   {
@@ -60,7 +60,7 @@ export const CATEGORIES = [
     desc: {
       en: "Fresh & vibrant greens",
       ru: "Свежие и яркие зелёные блюда",
-      hy: "Թարմ կանաչ ուտեստներ",
+      hy: "Թարմ և կենդանի կանաչիներ",
     },
   },
   {
@@ -73,7 +73,7 @@ export const CATEGORIES = [
     desc: {
       en: "Smash patties & craft buns",
       ru: "Сочные котлеты на ремесленных булках",
-      hy: "Հյութեղ կոտлет",
+      hy: "Հյութեղ կոտլետ և թարմ հաց",
     },
   },
   {
@@ -86,7 +86,7 @@ export const CATEGORIES = [
     desc: {
       en: "Sweet endings",
       ru: "Сладкое завершение",
-      hy: "Քաղցր ավарт",
+      hy: "Քաղցր ավարտ",
     },
   },
   {
@@ -99,7 +99,7 @@ export const CATEGORIES = [
     desc: {
       en: "Juices, cocktails & more",
       ru: "Соки, коктейли и многое другое",
-      hy: "Հyuter, kokteyler",
+      hy: "Հյութեր, կոկտեյլներ և ավելին",
     },
   },
   {
@@ -108,11 +108,11 @@ export const CATEGORIES = [
     image:
       "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
     count: 5,
-    name: { en: "Soups", ru: "Супы", hy: "Апурнер" },
+    name: { en: "Soups", ru: "Супы", hy: "Ապուրներ" },
     desc: {
       en: "Warming broths & bisques",
       ru: "Согревающие бульоны и биски",
-      hy: "Tau apurner",
+      hy: "Տաք արգանակներ և բիսկ",
     },
   },
 ];
@@ -124,12 +124,12 @@ export const FOODS = {
       name: {
         en: "Margherita Pizza",
         ru: "Пицца Маргарита",
-        hy: "Մargarita Picca",
+        hy: "Մարգարիտա պիցցա",
       },
       desc: {
         en: "San Marzano tomato, fresh mozzarella, basil, extra virgin olive oil",
         ru: "Томаты Сан-Марцано, свежая моцарелла, базилик, оливковое масло",
-        hy: "Թарм mocarella, basil",
+        hy: "Թարմ մոցարելլա, ռեհան, ձիթաձեթ",
       },
       price: 12500,
       tag: "pop",
@@ -140,12 +140,12 @@ export const FOODS = {
       name: {
         en: "Truffle Pasta",
         ru: "Паста с трюфелем",
-        hy: "Truffle Pasta",
+        hy: "Տrüfeli մակարոնեղեն",
       },
       desc: {
         en: "Tagliatelle, black truffle, parmigiano, butter sauce",
         ru: "Тальятелле, чёрный трюфель, пармиджано, сливочный соус",
-        hy: "Tagliatelle, black truffle",
+        hy: "Տaliatelle, սև տrüfel, պarmezan",
       },
       price: 18900,
       tag: "new",
@@ -156,12 +156,12 @@ export const FOODS = {
       name: {
         en: "Spaghetti Carbonara",
         ru: "Спагетти Карбонара",
-        hy: "Carbonara Spagetti",
+        hy: "Սpagetti Carbonara",
       },
       desc: {
         en: "Guanciale, egg yolk, pecorino romano, black pepper",
         ru: "Гуанчале, яичные желтки, пекорино, чёрный перец",
-        hy: "Classic italian recipe",
+        hy: "Դasakan իտалakan beragir",
       },
       price: 14200,
       tag: "",
@@ -177,7 +177,7 @@ export const FOODS = {
       desc: {
         en: "Four cheese blend: mozzarella, gorgonzola, brie, parmesan",
         ru: "Четыре сыра: моцарелла, горгонзола, бри, пармезан",
-        hy: "Char katsi blend",
+        hy: "Չoрс padezi komb. мocarella, gorgonzola, bри, parmezan",
       },
       price: 15700,
       tag: "",
@@ -188,12 +188,12 @@ export const FOODS = {
       name: {
         en: "Risotto ai Funghi",
         ru: "Ризотто с грибами",
-        hy: "Risotto Funghi",
+        hy: "Ризотто սնկով",
       },
       desc: {
         en: "Arborio rice, wild mushrooms, white wine, parmesan",
         ru: "Рис арборио, лесные грибы, белое вино, пармезан",
-        hy: "Arborio, mushroom, parmesan",
+        hy: "Arborio բрinkаr, вayri snkер, parmezan",
       },
       price: 16300,
       tag: "veg",
@@ -204,12 +204,12 @@ export const FOODS = {
       name: {
         en: "Lasagna Bolognese",
         ru: "Лазанья Болоньезе",
-        hy: "Lasagna Bolognese",
+        hy: "Լazagna Bolognese",
       },
       desc: {
         en: "Slow-cooked beef ragù, béchamel, fresh pasta sheets",
         ru: "Рагу из говядины, соус бешамель, свежие листы пасты",
-        hy: "Beef ragu, bechamel",
+        hy: "Коrovaget ragu, beshamel",
       },
       price: 17500,
       tag: "pop",
@@ -217,11 +217,11 @@ export const FOODS = {
     },
     {
       id: "it7",
-      name: { en: "Tiramisu", ru: "Тирамису", hy: "Tiramisu" },
+      name: { en: "Tiramisu", ru: "Тирамису", hy: "Թиramisu" },
       desc: {
         en: "Espresso-soaked ladyfingers, mascarpone, cocoa",
         ru: "Печенье, пропитанное эспрессо, маскарпоне, какао",
-        hy: "Mascarpone, espresso, cocoa",
+        hy: "Mascarpone, espresso, kakao",
       },
       price: 8900,
       tag: "new",
@@ -237,7 +237,7 @@ export const FOODS = {
       desc: {
         en: "Tomato & basil, ricotta & honey, prosciutto & fig",
         ru: "Помидоры и базилик, рикотта и мёд, прошутто и инжир",
-        hy: "Tomato, ricotta, prosciutto",
+        hy: "Помидор, ricotta, proshutto",
       },
       price: 9500,
       tag: "veg",
@@ -250,12 +250,12 @@ export const FOODS = {
       name: {
         en: "Dragon Roll",
         ru: "Ролл Дракон",
-        hy: "Dragon Roll",
+        hy: "Վիշապ ռոլ",
       },
       desc: {
         en: "Shrimp tempura, avocado, tobiko, eel sauce drizzle",
         ru: "Темпура с креветками, авокадо, тобико, соус угря",
-        hy: "Shrimp, avocado, tobiko",
+        hy: "Tempura krevetk, avocado, tobiko",
       },
       price: 16800,
       tag: "pop",
@@ -271,7 +271,7 @@ export const FOODS = {
       desc: {
         en: "Hand-pressed sushi rice, premium Atlantic salmon, wasabi",
         ru: "Прессованный рис, атлантический лосось, васаби",
-        hy: "Rice, premium salmon, wasabi",
+        hy: "Ձeраксsum brinkar, атلантиан salmon, wasabi",
       },
       price: 14200,
       tag: "new",
@@ -282,12 +282,12 @@ export const FOODS = {
       name: {
         en: "Rainbow Roll",
         ru: "Ролл Радуга",
-        hy: "Rainbow Roll",
+        hy: "Ծиататенак ռոлл",
       },
       desc: {
         en: "California roll topped with assorted sashimi",
         ru: "Ролл Калифорния с ассорти из сашими",
-        hy: "California, sashimi assortment",
+        hy: "California roll, sashimi ассortimento",
       },
       price: 18500,
       tag: "",
@@ -298,12 +298,12 @@ export const FOODS = {
       name: {
         en: "Spicy Tuna Roll",
         ru: "Острый ролл с тунцом",
-        hy: "Spicy Tuna Roll",
+        hy: "Կattuu կծու ռоll",
       },
       desc: {
         en: "Albacore tuna, sriracha mayo, cucumber, sesame",
         ru: "Тунец альбакор, майонез шрирача, огурец, кунжут",
-        hy: "Tuna, sriracha, cucumber",
+        hy: "Tuna, sriracha, varchik, kunжut",
       },
       price: 13900,
       tag: "spicy",
@@ -311,11 +311,11 @@ export const FOODS = {
     },
     {
       id: "su5",
-      name: { en: "Edamame", ru: "Эдамамэ", hy: "Edamame" },
+      name: { en: "Edamame", ru: "Эдамамэ", hy: "Էdamame" },
       desc: {
         en: "Steamed young soybeans, sea salt, sesame oil",
         ru: "Молодые соевые бобы на пару, морская соль, кунжутное масло",
-        hy: "Steam soybeans, sea salt",
+        hy: "Եeghats soya lobikhner, tzovaaлat",
       },
       price: 5500,
       tag: "veg",
@@ -323,11 +323,11 @@ export const FOODS = {
     },
     {
       id: "su6",
-      name: { en: "Miso Soup", ru: "Суп Мисо", hy: "Miso Soup" },
+      name: { en: "Miso Soup", ru: "Суп Мисо", hy: "Miso ապուր" },
       desc: {
         en: "Traditional dashi broth, silken tofu, wakame, spring onion",
         ru: "Традиционный бульон даси, тофу, вакамэ, зелёный лук",
-        hy: "Dashi, tofu, wakame",
+        hy: "Dashi arganak, tofu, wakame",
       },
       price: 4800,
       tag: "veg",
@@ -338,12 +338,12 @@ export const FOODS = {
       name: {
         en: "Sashimi Platter",
         ru: "Ассорти сашими",
-        hy: "Sashimi Platter",
+        hy: "Sashimi ассорти",
       },
       desc: {
         en: "12 slices: salmon, tuna, yellowtail, octopus",
         ru: "12 кусочков: лосось, тунец, желтохвост, осьминог",
-        hy: "12 sashimi assortment",
+        hy: "12 kտoр. salmon, tuna, octopus",
       },
       price: 24900,
       tag: "pop",
@@ -356,12 +356,12 @@ export const FOODS = {
       name: {
         en: "Ribeye 350g",
         ru: "Рибай 350г",
-        hy: "Ribeye 350g",
+        hy: "Ribeye 350գ",
       },
       desc: {
         en: "USDA Prime dry-aged 45 days, chimichurri, roasted garlic",
         ru: "Мясо USDA Prime выдержкой 45 дней, чимичурри, жареный чеснок",
-        hy: "USDA Prime, dry-aged 45 days",
+        hy: "USDA Prime, 45 ore чoracats, chimichurri",
       },
       price: 42000,
       tag: "pop",
@@ -372,12 +372,12 @@ export const FOODS = {
       name: {
         en: "Lamb Chops",
         ru: "Бараньи рёбрышки",
-        hy: "Lamb Chops",
+        hy: "Гаrnapa karogner",
       },
       desc: {
         en: "French rack of lamb, herb crust, mint jelly, grilled asparagus",
         ru: "Каре ягнёнка, травяная корочка, мятное желе, спаржа",
-        hy: "Herb lamb rack, mint, asparagus",
+        hy: "Gari гarnapar, kanacheghen kegev, anank",
       },
       price: 38500,
       tag: "",
@@ -388,12 +388,12 @@ export const FOODS = {
       name: {
         en: "Mixed Grill Platter",
         ru: "Ассорти гриль",
-        hy: "Mixed Grill",
+        hy: "Մиксед гриль ассорти",
       },
       desc: {
         en: "Beef, chicken, lamb kofta, grilled vegetables, pita",
         ru: "Говядина, курица, кофта из ягнёнка, овощи, питта",
-        hy: "Beef, chicken, kofta, veg",
+        hy: "Korovaget, hajk, kofta, banhak",
       },
       price: 32000,
       tag: "pop",
@@ -404,12 +404,12 @@ export const FOODS = {
       name: {
         en: "Filet Mignon 200g",
         ru: "Филе миньон 200г",
-        hy: "Filet Mignon 200g",
+        hy: "Filet Mignon 200գ",
       },
       desc: {
         en: "Tenderloin center cut, truffle butter, potato dauphinoise",
         ru: "Вырезка, масло с трюфелем, картофель дофинуа",
-        hy: "Tenderloin, truffle butter",
+        hy: "Entes kyord, trufel karag",
       },
       price: 46500,
       tag: "new",
@@ -420,12 +420,12 @@ export const FOODS = {
       name: {
         en: "BBQ Chicken Half",
         ru: "Курица BBQ половина",
-        hy: "BBQ Chicken",
+        hy: "BBQ հavk kesa",
       },
       desc: {
         en: "Free-range chicken, house BBQ glaze, coleslaw, cornbread",
         ru: "Курица свободного выгула, соус BBQ, коул-слоу, кукурузный хлеб",
-        hy: "Free-range, BBQ glaze, coleslaw",
+        hy: "Amon hajk, BBQ glaze, coleslaw",
       },
       price: 19800,
       tag: "",
@@ -436,12 +436,12 @@ export const FOODS = {
       name: {
         en: "Beef Shashlik",
         ru: "Шашлык из говядины",
-        hy: "Beef Shashlik",
+        hy: "Korovagti խоrovac",
       },
       desc: {
         en: "Marinated overnight, grilled over charcoal, onion & herbs",
         ru: "Маринован ночь, жарен на углях, лук и зелень",
-        hy: "Overnight marinated charcoal beef",
+        hy: "Gisher marinacvats, koxi vra, bolor ev kachach",
       },
       price: 22500,
       tag: "spicy",
@@ -452,12 +452,12 @@ export const FOODS = {
       name: {
         en: "Smoked Salmon Steak",
         ru: "Стейк из копчёного лосося",
-        hy: "Salmon Steak",
+        hy: "Salmons steyk",
       },
       desc: {
         en: "Cedar plank smoked, dill butter, capers, lemon zest",
         ru: "Лосось на кедровой доске, укропное масло, каперсы",
-        hy: "Cedar smoked, dill butter",
+        hy: "Kedreni tagman vra khkhtats, samoyin karag",
       },
       price: 28900,
       tag: "new",
@@ -468,12 +468,12 @@ export const FOODS = {
       name: {
         en: "Veggie Skewers",
         ru: "Овощные шашлычки",
-        hy: "Veggie Skewers",
+        hy: "Բантakhosner",
       },
       desc: {
         en: "Halloumi, zucchini, peppers, red onion, za'atar",
         ru: "Халлуми, кабачки, перец, красный лук, заатар",
-        hy: "Halloumi, zucchini, pepper",
+        hy: "Halloumi, kkiapot, pilpil, karmir bolor",
       },
       price: 13500,
       tag: "veg",
@@ -484,12 +484,12 @@ export const FOODS = {
       name: {
         en: "Pork Ribs Rack",
         ru: "Стойка рёбер свиных",
-        hy: "Pork Ribs Rack",
+        hy: "Кoчкari vegeri kam",
       },
       desc: {
         en: "Slow-smoked 6h, bourbon glaze, pickle, brioche bun",
         ru: "Медленное копчение 6 часов, бурбон-глазурь, соленья",
-        hy: "6h smoked, bourbon glaze",
+        hy: "6 zham dimahal khkhtats, bourbon glaze",
       },
       price: 34000,
       tag: "pop",
@@ -502,12 +502,12 @@ export const FOODS = {
       name: {
         en: "Caesar Royale",
         ru: "Цезарь Рояль",
-        hy: "Caesar Royale",
+        hy: "Сезar Royal",
       },
       desc: {
         en: "Cos lettuce, anchovies, croutons, 63° egg, house dressing",
         ru: "Салат косс, анчоусы, крутоны, яйцо 63°, соус",
-        hy: "Cos, anchovies, croutons, egg",
+        hy: "Сalat, anchous, krouton, dzel",
       },
       price: 9800,
       tag: "pop",
@@ -518,12 +518,12 @@ export const FOODS = {
       name: {
         en: "Greek Village",
         ru: "Греческий деревенский",
-        hy: "Greek Village",
+        hy: "Հунanian khndakegheni",
       },
       desc: {
         en: "Tomato, cucumber, olives, feta, red onion, oregano",
         ru: "Помидоры, огурцы, оливки, фета, лук, орегано",
-        hy: "Tomato, olive, feta, oregano",
+        hy: "Lolig, varchik, dzit, feta, oregano",
       },
       price: 8500,
       tag: "veg",
@@ -531,11 +531,11 @@ export const FOODS = {
     },
     {
       id: "sa3",
-      name: { en: "Nicoise", ru: "Нисуаз", hy: "Nicoise" },
+      name: { en: "Nicoise", ru: "Нисуаз", hy: "Нisуаz" },
       desc: {
         en: "Seared tuna, green beans, potato, olive, soft-boiled egg",
         ru: "Тунец, стручковая фасоль, картофель, оливки, яйцо",
-        hy: "Tuna, beans, potato, egg",
+        hy: "Tuna, lobi, karafogl, dzit, dzel",
       },
       price: 11200,
       tag: "",
@@ -546,12 +546,12 @@ export const FOODS = {
       name: {
         en: "Watermelon & Feta",
         ru: "Арбуз и фета",
-        hy: "Watermelon Feta",
+        hy: "Ձмехri и feta",
       },
       desc: {
         en: "Seedless watermelon, barrel-aged feta, mint, balsamic",
         ru: "Арбуз, выдержанная фета, мята, бальзамик",
-        hy: "Watermelon, feta, mint, balsamic",
+        hy: "Дzmekh, feta, anank, balzamik",
       },
       price: 9200,
       tag: "new",
@@ -562,12 +562,12 @@ export const FOODS = {
       name: {
         en: "Quinoa Power Bowl",
         ru: "Боул с киноа",
-        hy: "Quinoa Bowl",
+        hy: "Qinoa pauerbowl",
       },
       desc: {
         en: "Tri-colour quinoa, roasted beets, chickpeas, tahini",
         ru: "Трёхцветная киноа, жареная свёкла, нут, тхина",
-        hy: "Tri-color quinoa, beets, tahini",
+        hy: "Ernguni quinoa, khorated avag, nxut, tahini",
       },
       price: 10500,
       tag: "veg",
@@ -578,12 +578,12 @@ export const FOODS = {
       name: {
         en: "Burrata & Heirloom",
         ru: "Буррата и томаты",
-        hy: "Burrata Tomato",
+        hy: "Burrata loligov",
       },
       desc: {
         en: "Creamy burrata, heirloom tomatoes, basil oil, sea salt",
         ru: "Буррата, помидоры, масло базилика, морская соль",
-        hy: "Burrata, heirloom tomato, basil",
+        hy: "Burrata, lolig, rehan dzet, tzovaaлat",
       },
       price: 13800,
       tag: "pop",
@@ -596,12 +596,12 @@ export const FOODS = {
       name: {
         en: "Classic Smash",
         ru: "Классический смэш",
-        hy: "Classic Smash",
+        hy: "Դасакан smash",
       },
       desc: {
         en: "Double smash patty, American cheese, pickles, smash sauce",
         ru: "Двойная котлета, американский сыр, соленья, соус",
-        hy: "Double patty, cheese, pickles",
+        hy: "Crdapataspar kotlet, amerik. paner, marinadzvatsnev",
       },
       price: 11900,
       tag: "pop",
@@ -612,12 +612,12 @@ export const FOODS = {
       name: {
         en: "Truffle Black",
         ru: "Чёрный трюфельный",
-        hy: "Truffle Black",
+        hy: "Taratayi sev",
       },
       desc: {
         en: "Charcoal bun, wagyu patty, truffle aioli, crispy onions",
         ru: "Угольная булка, патти из вагю, трюфельный айоли",
-        hy: "Charcoal bun, wagyu, truffle aioli",
+        hy: "Sev hac, wagyu kotlet, trufel aioli",
       },
       price: 18500,
       tag: "new",
@@ -628,12 +628,12 @@ export const FOODS = {
       name: {
         en: "BBQ Bacon Tower",
         ru: "Бекон-башня BBQ",
-        hy: "BBQ Bacon Tower",
+        hy: "BBQ bekon ashтarак",
       },
       desc: {
         en: "Double beef, crispy bacon, BBQ sauce, onion rings",
         ru: "Двойная говядина, хрустящий бекон, соус BBQ, луковые кольца",
-        hy: "Double beef, bacon, BBQ rings",
+        hy: "Кrdapataspar gov. mis, khordz bekon, BBQ sous",
       },
       price: 14900,
       tag: "",
@@ -644,12 +644,12 @@ export const FOODS = {
       name: {
         en: "Spicy Jalapeño",
         ru: "Острый с халапеньо",
-        hy: "Spicy Jalapeno",
+        hy: "Kicu jalapeño",
       },
       desc: {
         en: "Beef patty, fresh jalapeños, pepper jack, sriracha mayo",
         ru: "Котлета, халапеньо, перечный джек, майонез шрирача",
-        hy: "Beef, jalapeno, sriracha",
+        hy: "Mis, jalapeño, sriracha майонéz",
       },
       price: 13200,
       tag: "spicy",
@@ -660,12 +660,12 @@ export const FOODS = {
       name: {
         en: "Veggie Portobello",
         ru: "Вегетарианский Портобелло",
-        hy: "Veggie Portobello",
+        hy: "Veggie portobello",
       },
       desc: {
         en: "Portobello mushroom, goat cheese, roasted peppers, arugula",
         ru: "Гриб портобелло, козий сыр, запечённый перец, руккола",
-        hy: "Portobello, goat cheese, arugula",
+        hy: "Portobello sunk, aytsyan paner, arugula",
       },
       price: 10900,
       tag: "veg",
@@ -676,12 +676,12 @@ export const FOODS = {
       name: {
         en: "Fish & Chips Burger",
         ru: "Бургер с рыбой и чипсами",
-        hy: "Fish Chips Burger",
+        hy: "Jukе ev chips burgер",
       },
       desc: {
         en: "Crispy cod fillet, tartar sauce, lettuce, malt vinegar slaw",
         ru: "Хрустящее филе трески, соус тартар, салат, слоу с солодом",
-        hy: "Crispy cod, tartar, slaw",
+        hy: "Хordz juk, tartar sous, salat",
       },
       price: 12500,
       tag: "",
@@ -692,12 +692,12 @@ export const FOODS = {
       name: {
         en: "Mushroom Swiss",
         ru: "Грибной с швейцарским",
-        hy: "Mushroom Swiss",
+        hy: "Snkov shuitsarakan",
       },
       desc: {
         en: "Sautéed mushrooms, Swiss cheese, Dijon mustard, brioche",
         ru: "Обжаренные грибы, швейцарский сыр, дижонская горчица",
-        hy: "Mushroom, swiss, dijon",
+        hy: "Khored snkер, shveytsarakan paner, dijon mardаkan",
       },
       price: 12100,
       tag: "",
@@ -710,12 +710,12 @@ export const FOODS = {
       name: {
         en: "Crème Brûlée",
         ru: "Крем-брюле",
-        hy: "Creme Brulee",
+        hy: "Կrем Брюлé",
       },
       desc: {
         en: "Classic vanilla custard, caramelised sugar crust, fresh berries",
         ru: "Классический ванильный крем, карамелизированная корочка",
-        hy: "Vanilla custard, caramel, berries",
+        hy: "Vanili krem, karamelizatsvats shakar, anush mrgher",
       },
       price: 7800,
       tag: "pop",
@@ -726,12 +726,12 @@ export const FOODS = {
       name: {
         en: "Lava Cake",
         ru: "Шоколадный лава-кейк",
-        hy: "Lava Cake",
+        hy: "Шоколадний lava tort",
       },
       desc: {
         en: "Warm dark chocolate fondant, vanilla gelato, raspberry coulis",
         ru: "Тёплый тёмный шоколадный фондан, ванильное мороженое",
-        hy: "Chocolate fondant, vanilla gelato",
+        hy: "Taq shok. fondan, vanili gelato",
       },
       price: 8900,
       tag: "pop",
@@ -739,11 +739,11 @@ export const FOODS = {
     },
     {
       id: "de3",
-      name: { en: "Baklava Platter", ru: "Пахлава", hy: "Baklava" },
+      name: { en: "Baklava Platter", ru: "Пахлава", hy: "Պaхlava" },
       desc: {
         en: "Layered filo, pistachios, walnuts, honey & rose water syrup",
         ru: "Слоёное тесто, фисташки, грецкие орехи, мёд и сироп",
-        hy: "Filo, pistachio, walnut, honey",
+        hy: "Filo khmoreghen, karmir yndzdeni, akhtseni",
       },
       price: 9500,
       tag: "new",
@@ -754,12 +754,12 @@ export const FOODS = {
       name: {
         en: "Panna Cotta",
         ru: "Панна-котта",
-        hy: "Panna Cotta",
+        hy: "Panna cotta",
       },
       desc: {
         en: "Vanilla bean cream, mango coulis, edible flowers",
         ru: "Сливочный крем с ванилью, манговый кулис, съедобные цветы",
-        hy: "Vanilla cream, mango coulis",
+        hy: "Vanili krем, mango coulis, txragorcakan tsagikner",
       },
       price: 7200,
       tag: "veg",
@@ -770,12 +770,12 @@ export const FOODS = {
       name: {
         en: "Cheesecake NY",
         ru: "Чизкейк Нью-Йорк",
-        hy: "NY Cheesecake",
+        hy: "Нью-Йоркի cheesecake",
       },
       desc: {
         en: "Classic baked cheesecake, graham cracker crust, mixed berry",
         ru: "Классический запечённый чизкейк, крекерная основа, ягоды",
-        hy: "Baked cheesecake, berry topping",
+        hy: "Xoratsvats cheesecake, mrger",
       },
       price: 8500,
       tag: "",
@@ -786,12 +786,12 @@ export const FOODS = {
       name: {
         en: "Profiteroles",
         ru: "Профитроли",
-        hy: "Profiteroles",
+        hy: "Profiterolner",
       },
       desc: {
         en: "Choux pastry, whipped cream, warm chocolate ganache",
         ru: "Заварное тесто, взбитые сливки, горячий ганаш",
-        hy: "Choux, cream, chocolate ganache",
+        hy: "Khmoreghen, xachaxratsatsnatsampatgh, shok. ganash",
       },
       price: 9100,
       tag: "",
@@ -802,12 +802,12 @@ export const FOODS = {
       name: {
         en: "Fruit Sorbet Trio",
         ru: "Трио сорбета",
-        hy: "Sorbet Trio",
+        hy: "Mrgheyin sorbe trio",
       },
       desc: {
         en: "Mango, passion fruit, raspberry — rotating seasonal sorbets",
         ru: "Манго, маракуйя, малина — сезонные сорбеты",
-        hy: "Mango, passion fruit, raspberry",
+        hy: "Mango, marakuya, malina — epokhayin sorbetner",
       },
       price: 6800,
       tag: "veg",
@@ -818,12 +818,12 @@ export const FOODS = {
       name: {
         en: "Waffles & Nutella",
         ru: "Вафли с Нутеллой",
-        hy: "Waffles Nutella",
+        hy: "Вафлیner Nutellaov",
       },
       desc: {
         en: "Belgian waffles, Nutella, banana, whipped cream, strawberry",
         ru: "Бельгийские вафли, Нутелла, банан, взбитые сливки",
-        hy: "Belgian waffle, Nutella, banana",
+        hy: "Belgiayi vafli, Nutella, banan, xachakhratsvats serjk",
       },
       price: 7500,
       tag: "new",
@@ -836,12 +836,12 @@ export const FOODS = {
       name: {
         en: "Fresh Orange Juice",
         ru: "Свежевыжатый апельсиновый сок",
-        hy: "Fresh Orange",
+        hy: "Թarм narinchjayin hut",
       },
       desc: {
         en: "Cold-pressed from 6 Valencia oranges, served over ice",
         ru: "Холодный отжим из 6 апельсинов Валенсия",
-        hy: "6 Valencia oranges, cold press",
+        hy: "Sarsum sarnvats 6 narinchi hut, siakarem sexi vra",
       },
       price: 4500,
       tag: "veg",
@@ -852,12 +852,12 @@ export const FOODS = {
       name: {
         en: "Mojito Classic",
         ru: "Мохито Классик",
-        hy: "Classic Mojito",
+        hy: "Кlasik mojito",
       },
       desc: {
         en: "White rum, fresh lime, mint, soda, cane sugar",
         ru: "Белый ром, лайм, мята, содовая, тростниковый сахар",
-        hy: "Rum, lime, mint, soda",
+        hy: "Spitakrum, lime, anank, sodavayin, ganzaxayin shakar",
       },
       price: 7200,
       tag: "pop",
@@ -868,12 +868,12 @@ export const FOODS = {
       name: {
         en: "Cold Brew Coffee",
         ru: "Холодный кофе",
-        hy: "Cold Brew",
+        hy: "Sarr сuрji",
       },
       desc: {
         en: "12-hour steeping, served over crystal ice, oat milk optional",
         ru: "Настаивается 12 часов, подаётся на кристальном льду",
-        hy: "12h cold brew, crystal ice",
+        hy: "12 zham thrmvats, blluryan sexi vra matyutsats",
       },
       price: 4800,
       tag: "",
@@ -884,12 +884,12 @@ export const FOODS = {
       name: {
         en: "Mango Lassi",
         ru: "Манговый ласси",
-        hy: "Mango Lassi",
+        hy: "Mango lassi",
       },
       desc: {
         en: "Alphonso mango, chilled yogurt, cardamom, rose water",
         ru: "Манго Альфонсо, охлаждённый йогурт, кардамон, розовая вода",
-        hy: "Alphonso mango, yogurt, cardamom",
+        hy: "Alphonso mango, sarak matsun, kardamon, vardarjur",
       },
       price: 5500,
       tag: "veg",
@@ -900,12 +900,12 @@ export const FOODS = {
       name: {
         en: "Aperol Spritz",
         ru: "Апероль Шприц",
-        hy: "Aperol Spritz",
+        hy: "Aperol spritz",
       },
       desc: {
         en: "Aperol, Prosecco, sparkling water, orange slice",
         ru: "Апероль, Просекко, газированная вода, апельсин",
-        hy: "Aperol, Prosecco, sparkling",
+        hy: "Aperol, Prosecco, gazavortsvats jur, narinch",
       },
       price: 8500,
       tag: "new",
@@ -916,12 +916,12 @@ export const FOODS = {
       name: {
         en: "Berry Smoothie",
         ru: "Ягодный смузи",
-        hy: "Berry Smoothie",
+        hy: "Mrgeyin smusi",
       },
       desc: {
         en: "Blueberry, strawberry, raspberry, banana, oat milk",
         ru: "Черника, клубника, малина, банан, овсяное молоко",
-        hy: "Mixed berry, banana, oat milk",
+        hy: "Brikneni, bolori, malini, banan, verakani kath",
       },
       price: 5900,
       tag: "veg",
@@ -932,12 +932,12 @@ export const FOODS = {
       name: {
         en: "Sparkling Water",
         ru: "Газированная вода",
-        hy: "Sparkling Water",
+        hy: "Gazavortsvats jur",
       },
       desc: {
         en: "San Pellegrino or Perrier, glass bottle, 500ml",
         ru: "Сан Пеллегрино или Перье, стеклянная бутылка 500мл",
-        hy: "San Pellegrino 500ml",
+        hy: "San Pellegrino kam Perrier, apaki shisha, 500ml",
       },
       price: 2200,
       tag: "",
@@ -948,12 +948,12 @@ export const FOODS = {
       name: {
         en: "Espresso Martini",
         ru: "Эспрессо Мартини",
-        hy: "Espresso Martini",
+        hy: "Espresso martini",
       },
       desc: {
         en: "Double espresso, vodka, coffee liqueur, vanilla sugar foam",
         ru: "Двойной эспрессо, водка, кофейный ликёр, ванильная пена",
-        hy: "Espresso, vodka, coffee liqueur",
+        hy: "Krdapataspar espresso, vodka, kafein likyorl, vanili afren",
       },
       price: 9800,
       tag: "pop",
@@ -964,12 +964,12 @@ export const FOODS = {
       name: {
         en: "Hot Chocolate",
         ru: "Горячий шоколад",
-        hy: "Hot Chocolate",
+        hy: "Taq shokolad",
       },
       desc: {
         en: "70% Valrhona chocolate, steamed milk, whipped cream, sea salt",
         ru: "Шоколад Вальрона 70%, молоко, взбитые сливки, морская соль",
-        hy: "Valrhona 70%, steamed milk",
+        hy: "Valrhona 70% shok., eghatsats kath, tzovaлat",
       },
       price: 5200,
       tag: "",
@@ -980,12 +980,12 @@ export const FOODS = {
       name: {
         en: "Iced Matcha Latte",
         ru: "Матча-латте со льдом",
-        hy: "Iced Matcha",
+        hy: "Serov matcha latte",
       },
       desc: {
         en: "Ceremonial grade matcha, oat milk, vanilla, cane sugar syrup",
         ru: "Церемониальная матча, овсяное молоко, ваниль",
-        hy: "Ceremonial matcha, oat milk",
+        hy: "Ararekayin matcha, verakani kath, vanilin, ganzaxayin shrop",
       },
       price: 5800,
       tag: "new",
@@ -998,12 +998,12 @@ export const FOODS = {
       name: {
         en: "French Onion",
         ru: "Французский луковый",
-        hy: "French Onion",
+        hy: "Fransiakan bolori apur",
       },
       desc: {
         en: "Caramelised onion, beef broth, gruyère crouton, thyme",
         ru: "Карамелизированный лук, говяжий бульон, грюйер, тимьян",
-        hy: "Caramel onion, gruyere, thyme",
+        hy: "Karamelizatsvats bolor, korovagti arganak, gruyere",
       },
       price: 8500,
       tag: "pop",
@@ -1014,12 +1014,12 @@ export const FOODS = {
       name: {
         en: "Lobster Bisque",
         ru: "Биск из лобстера",
-        hy: "Lobster Bisque",
+        hy: "Omarer bisque",
       },
       desc: {
         en: "Cream of Atlantic lobster, cognac, tarragon, crème fraîche",
         ru: "Крем из атлантического лобстера, коньяк, эстрагон",
-        hy: "Atlantic lobster, cognac, tarragon",
+        hy: "Atlantyan omarer, konyak, tarkhun, creme fraiche",
       },
       price: 16500,
       tag: "new",
@@ -1027,11 +1027,11 @@ export const FOODS = {
     },
     {
       id: "sp3",
-      name: { en: "Borsch", ru: "Борщ", hy: "Borsch" },
+      name: { en: "Borsch", ru: "Борщ", hy: "Borshch" },
       desc: {
         en: "Slow-cooked beef, beets, cabbage, sour cream, rye bread",
         ru: "Говядина медленного приготовления, свёкла, капуста, сметана",
-        hy: "Beef, beet, cabbage, sour cream",
+        hy: "Dimahali mis, կоcнемdug, bаghamba, madzun, kntorer",
       },
       price: 7800,
       tag: "pop",
@@ -1039,11 +1039,11 @@ export const FOODS = {
     },
     {
       id: "sp4",
-      name: { en: "Tom Yum", ru: "Том Ям", hy: "Tom Yum" },
+      name: { en: "Tom Yum", ru: "Том Ям", hy: "Tom yum" },
       desc: {
         en: "Lemongrass, kaffir lime, galangal, prawns, mushrooms",
         ru: "Лемонграсс, каффирский лайм, галангал, креветки, грибы",
-        hy: "Lemongrass, prawn, mushroom",
+        hy: "Limonakhot, galangal, krevetk, snker, kafirsky lime",
       },
       price: 10200,
       tag: "spicy",
@@ -1054,12 +1054,12 @@ export const FOODS = {
       name: {
         en: "Pumpkin Velouté",
         ru: "Велюте из тыквы",
-        hy: "Pumpkin Veloute",
+        hy: "Jampkini veloute",
       },
       desc: {
         en: "Roasted butternut, coconut cream, toasted pepitas, chilli oil",
         ru: "Запечённая тыква, кокосовые сливки, тыквенные семечки",
-        hy: "Butternut, coconut, pepitas",
+        hy: "Xoratsvats jampik, kокосaghi kath, jampkinin sermer",
       },
       price: 7200,
       tag: "veg",
@@ -1068,58 +1068,62 @@ export const FOODS = {
   ],
 };
 
-export const CURRENCY = { en: "AMD", ru: "AMD", hy: "դр." };
+export const CURRENCY = { en: "AMD", ru: "AMD", hy: "դր." };
 
 export const TRANSLATIONS = {
   seeAll: {
     en: "See All →",
     ru: "Смотреть всё →",
-    hy: "Տesnel bolorey →",
+    hy: "Տեսնել բոլորը →",
   },
   search: {
     en: "Search dishes, categories…",
     ru: "Поиск блюд, категорий…",
-    hy: "Phntrel utestaer…",
+    hy: "Որոնել ուտեստներ, կատեգորիաներ…",
   },
-  categories: { en: "Categories", ru: "Категории", hy: "Kateg." },
-  items: { en: "items", ru: "блюд", hy: "uteast" },
+  categories: {
+    en: "Categories",
+    ru: "Категории",
+    hy: "Կատեգորիաներ",
+  },
+  items: { en: "items", ru: "блюд", hy: "ուտեստ" },
   heroSub: {
     en: "Fine Dining Experience",
     ru: "Изысканный ресторан",
-    hy: "Bars. urnakarg",
+    hy: "Բարձրակարգ ճաշարան",
   },
   heroTitle1: {
     en: "Discover our",
     ru: "Откройте для себя",
-    hy: "Batsayrec mer",
+    hy: "Բացայտեք մեր",
   },
   heroTitle2: {
     en: "Culinary World",
     ru: "кулинарный мир",
-    hy: "Khohanakanutyan ashkharh",
+    hy: "Խոհանոցային աշխարհը",
   },
   heroDesc: {
     en: "Fresh ingredients · Crafted with love",
     ru: "Свежие продукты · С любовью",
-    hy: "Tarm baladjkner · sirovm",
+    hy: "Թարմ բաղադրիչներ · Սիրով պատրաստված",
   },
   searchResults: {
     en: "Search Results",
     ru: "Результаты поиска",
-    hy: "Orhonutyunner",
+    hy: "Որոնման արդյունքներ",
   },
-  found: { en: "found", ru: "найдено", hy: "gortsvats" },
+  found: { en: "found", ru: "найдено", hy: "գտնվեց" },
   noResults: {
     en: "No results found",
     ru: "Ничего не найдено",
-    hy: "Pahasanq chka",
+    hy: "Ոչինչ չի գտնվել",
   },
   noResultsDesc: {
     en: "Try another search term",
     ru: "Попробуйте другой запрос",
-    hy: "Parhatsek urish",
+    hy: "Փորձեք այլ հարցում",
   },
-  dishes: { en: "dishes", ru: "блюд", hy: "uteast" },
+  dishes: { en: "dishes", ru: "блюд", hy: "ուտեստ" },
 };
 
 export function t(key, lang) {
